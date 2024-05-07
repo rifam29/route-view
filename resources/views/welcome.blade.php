@@ -18,7 +18,7 @@
             $languages = $_GET['language'];
             echo "Menggunakan bahasa ";
             foreach($languages as $language) {
-                echo $language . ", ";
+                echo $language . ", ";   
             }
             echo "<br>";
         } else {
